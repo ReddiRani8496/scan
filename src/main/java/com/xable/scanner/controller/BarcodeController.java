@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/barcodes")
-@CrossOrigin(origins = "http://localhost:3000") // Use your React dev server port
+@CrossOrigin(origins = "https://reddirani8496.github.io/fscan") // Use your React dev server port
 public class BarcodeController {
 
     @Autowired
